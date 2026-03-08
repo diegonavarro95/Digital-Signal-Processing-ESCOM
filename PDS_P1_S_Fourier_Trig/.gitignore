@@ -1,0 +1,31 @@
+# --- Archivos Compilados de Java ---
+*.class
+*.jar
+*.war
+*.ear
+
+# --- Directorios de Construcción de NetBeans (Ant) ---
+/build/
+/dist/
+
+# Ignorar configuraciones privadas
+/nbproject/private/
+/nbproject/Makefile-*.mk
+/nbproject/Package-*.bash
+
+# --- Archivos Temporales y Caché de MATLAB ---
+# Autosaves de MATLAB
+*.asv
+
+# Archivos de datos binarios o figuras guardadas
+# *.mat
+# *.fig
+
+# Archivos de choque o errores
+matlab_crash_dump.*
+
+# --- Archivos del Sistema Operativo ---
+# Basura generada por Windows o macOS al explorar carpetas
+.DS_Store
+Thumbs.db
+desktop.ini
